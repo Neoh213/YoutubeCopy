@@ -1,0 +1,222 @@
+body{
+  background-color: #000000;
+  overflow:hidden;
+}
+/*Menu*/
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    padding-top: 10px;
+    width: 240px;
+    background-color: #222323;
+    font-family: sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    height: 100%; /* Full height */
+
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.lineEdit{
+
+}
+.sidebyside{
+  display: inline-block;
+  list-style-type: none;
+  margin-bottom: -20px;
+}
+li a {
+    display: block;
+    color: #d1d1d6;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+
+.hover:hover {
+    background-color: #555;
+    color: white;
+}
+.hoverGlass:hover{
+  color:grey;
+}
+
+hr {
+  border:0;
+  color:#434344;
+  background-color:#434344;
+  height:1px;
+}
+
+.changeI
+{
+  padding-right: 20px;
+  margin-top:-10px;
+
+}
+
+
+.sideWords{
+  font-size: 13px;
+  padding-left:15px;
+  padding-top:10px;
+  color:#d1d1d6;
+}
+
+.sideIcon
+{
+  font-size: 11px;
+  padding-left:60px;
+  padding-top:20px;
+  padding-bottom:10px;
+  color:#d1d1d6;
+}
+/*moving the bar*/
+
+
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1d1e1e;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    transition: .5s;
+    padding-top: 0px;
+}
+
+.sidenav a {
+
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+    top: 0;
+    margin-left: -100px;
+    margin-top: -60px;
+    font-size: 15px;
+
+
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.active {
+    color: red;
+}
+
+/*scroll bar*/
+
+
+
+/*Top menu*/
+
+.topMenu
+{
+    width: 100%;
+    list-style-type: none;
+    background-color: #222323;
+    margin-top: -10px;
+    overflow: hidden;
+
+}
+
+.topMenuLists {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.moveleft{
+  float: left;
+  margin-left: -23px;
+  margin-top:10px;
+}
+
+.moveright{
+  float:right;
+  padding-right: 40px;
+  margin-left: -50px;
+  margin-top: -20px;
+
+}
+
+.center
+{
+  float:center;
+padding-right:40px;
+padding-top: 20px;
+margin-bottom: -20px;
+}
+
+.menuIcon
+{
+  float:left;
+  margin-top:23px;
+  margin-left:-30px;
+  color: #d1d1d6;
+}
+
+.webText
+{
+  font-family: sans-serif;
+  font-size:12px;
+  font-weight: bold;
+}
+
+/*Search bar*/
+
+.sBar{
+     width: 40%;
+     height: 15px;
+     border: 1px solid #434447;
+     padding: 5px;
+    margin-left: 80px;
+    margin-right: -5px;
+    margin-bottom:-10;
+    background-color:#000000;
+}
+.sButton
+{
+  height:28px;
+  width: 60px;
+  margin-right: -10px;
+  background-color: #2c2d30;
+  border: 0;
+  padding-bottom: 12px;
+}
+
+.magGlassIcon
+{
+  color:#6c6d6d;
+}
+
+/*Videos*/
+
+.videos{
+
+  float:left;
+  margin-right: 40px;
+
+  margin-bottom: 30px;
+  padding-top: -30px;
+  padding-left: 5px;
+
+}

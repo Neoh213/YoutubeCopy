@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href = "./css/youtubecopycss.css">
+<link rel="shortcut icon" type="image/x-icon" href="youtubefavicon.ico" />
+
+</head>
+
+<body id ="test">
+  <div >
+      <ul class = "topMenu">
+        <li class="menuIcon"><span style="font-size:25px;cursor:pointer;" onclick="openNav()"><i class="material-icons changeI" style="font-size:25px">dehaze</i></span></li>
+        <li class="moveleft"><a href="#" class="webText"><i class="fa fa-youtube-play" style="font-size:22px;color:red;"></i>YouTube</a></li>
+        <li class="center">
+          <form>
+           <input type="text" class = "sBar" placeholder="Search" >
+           <button type = "submit" class = "sButton"><i class="material-icons magGlassIcon hoverGlass" style="font-size:17px;">search</i></button>
+         </form>
+       </li>
+        <li class="moveright"><a href="#"><i class="material-icons " style="font-size:25px;color:white;">notifications</i></a></li>
+        <li class="moveright"><a href="#"><i class="material-icons " style="font-size:25px;color:white;">apps</i></a></li>
+        <li class="moveright"><a href="#"><i class="material-icons " style="font-size:25px;color:white;">file_upload</i></a></li>
+      </ul>
+  </div>
+<div id="mySidenav" class="sidenav">
+
+  <ul class ="menu">
+
+      <ul class = "sidebyside">
+      	<li><a href="#"><i class="fa fa-youtube-play" style="font-size:22px;color:red;"></i>YouTube</a></li>
+    <li class= "sideIcon"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="material-icons changeI" style="font-size:25px">dehaze</i></a></li>
+  </ul>
+    <li><a href="youtubehomecopy.html" class="hover"> <i class="material-icons changeI active" style="font-size:20px;">home</i>Home</a></li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">whatshot</i>Trending</a></li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">subscriptions</i>Subscriptions</a></li>
+  <hr class ="lineEdit">
+    <li class="sideWords">LIBRARY</li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">history</i>History</a></li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">access_time</i>Watch later</a></li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">local_offer</i>Purchases</a></li>
+    <li><a href="#" class="hover"><i class="material-icons changeI" style="font-size:20px">thumb_up</i>Liked videos</a></li>
+    <hr class ="lineEdit">
+    <li class="sideWords">SUBSCRIPTIONS</li>
+  </ul>
+</div>
+
+<div id = "main" style="margin-left:100px;">
+  <ul>
+
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/jV8B24rSN5o"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/jV8B24rSN5o"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+  <li class = "videos"><iframe frameborder ="0" width="200" height="100"src="https://www.youtube.com/embed/HgwCeNVPlo0"></iframe> </li>
+
+
+
+  </ul>
+
+</div>
+
+<script>
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "220px";
+    document.getElementById("main").style.marginLeft = "320px";
+
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+function hideBar(){
+  function hideBar(){
+    document.getElementById("demo").onmouseout = function(){myScript};
+  }
+
+  function showBar(){
+    document.getElementById('id').onmouseover = function(){myScript};
+
+  }
+}
+
+function showBar(){
+  document.getElementById('id').onmouseover = function(){myScript};
+
+}
+</script>
+
+
+</body>
+</html>
